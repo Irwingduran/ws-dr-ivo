@@ -24,14 +24,14 @@ const Home = () => {
       <SurgeriesGrid/>
       </div>
       <Banner/>
-      <TestimonialCarousel/>
       <div id="location">
       <MapLocation/>
       </div>
       <div id='contact'>
-    <Contact/>
+      <Contact/>
       </div>
-        <Footer />
+      <TestimonialCarousel/>
+      <Footer />
     </div>
   )
 }
