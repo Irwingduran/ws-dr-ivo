@@ -7,16 +7,19 @@ const SurgeriesGrid = () => {
       title: "Consulta médica con especialista",
       description: "Evaluar, diagnosticar y tratar diversas condiciones médicas.",
       image: "/services/cancer.jpg",
+      link: "/Service",
     },
     {
       title: "Retiro de verrugas por papiloma y molusco contagioso con láser",
       description: "Eliminación segura y efectiva de verrugas causadas por el virus del papiloma humano (VPH).",
       image: "/services/difus.jpg",
+      link: "/Service",
     },
     {
       title: "Ultrasonido de próstata y vías urinarias con FLUJOMETRIA",
       description: "Estudio no invasivo para evaluar el estado de la próstata y vías urinarias.",
       image: "/services/piedras.webp",
+      link: "/Service",
     },
   ];
   
@@ -72,7 +75,7 @@ const SurgeriesGrid = () => {
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">{surgery.title}</h3>
                 <p className="text-gray-600 mb-4">{surgery.description}</p>
                 <a
-                  href="#"
+                  href={surgery.link}
                   className="inline-flex items-center text-[#0284C7] font-medium hover:text-blue-800 transition-colors duration-200"
                 >
                   Ver más
