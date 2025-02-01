@@ -1,5 +1,7 @@
 import React from "react"
 import { ChevronRight, Star } from "lucide-react"
+import { FaHeartbeat, FaProcedures, FaUserMd, FaRulerVertical, } from 'react-icons/fa';
+import { GiLaserPrecision } from "react-icons/gi";
 
 const SurgeriesGrid = () => {
   const surgeries = [
@@ -37,20 +39,24 @@ const SurgeriesGrid = () => {
     {
       name: "Cirugía de próstata con láser HOLEP",
       price: "A partir de $90,000.00",
+      icon: <GiLaserPrecision className="text-4xl mb-4 text-yellow-100" />, // Salud y órganos
     },
     {
       name: "Cirugía de cálculos (piedras) urinarias con láser",
       price: "A partir de $35,000.00",
+      icon: <FaProcedures  className="text-4xl mb-4 text-yellow-100" />, // Diagnóstico y tratamiento
     },
     {
       name: "Cirugía de genitales (circuncisión, varicocele, hidrocele) con láser",
       price: "A partir de $25,000",
+      icon: <FaUserMd className="text-4xl mb-4 text-yellow-100" />, // Tratamiento de áreas específicas
     },
     {
       name: "Cirugía de alargamiento y engrosamiento de pene (con y sin prótesis)",
       price: "A partir de $30,000",
+      icon: <FaRulerVertical className="text-4xl mb-4 text-yellow-100" />, // Medición o ajuste
     },
-  ]
+  ];
 
   return (
     <div className="bg-white py-16 px-4">
@@ -99,16 +105,20 @@ const SurgeriesGrid = () => {
         </div>
 
         <div className="bg-[#0284C7] rounded-xl shadow-lg p-8 text-white">
-          <h2 className="text-3xl font-bold mb-8 text-center">Cirugías más frecuentes</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-            {frequentSurgeries.map((surgery, index) => (
-              <div key={index} className="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
-                <h3 className="text-xl font-semibold mb-2">{surgery.name}</h3>
-                <p className="text-2xl font-bold text-yellow-100">{surgery.price}</p>
-              </div>
-            ))}
-          </div>
+  <h2 className="text-3xl font-bold mb-8 text-center">Cirugías más frecuentes</h2>
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+    {frequentSurgeries.map((surgery, index) => (
+      <div key={index} className="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
+        <div className="flex flex-col items-center">
+          {surgery.icon}
+          <h3 className="text-xl font-semibold mb-2 text-center">{surgery.name}</h3>
+          <p className="text-2xl font-bold text-yellow-100 text-center">{surgery.price}</p>
         </div>
+      </div>
+    ))}
+  </div>
+</div>
+
       </div>
     </div>
   )

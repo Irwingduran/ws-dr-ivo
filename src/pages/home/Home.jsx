@@ -23,15 +23,15 @@ const Home = () => {
       <div id='service'>
       <SurgeriesGrid/>
       </div>
-      <Banner/>
       <div id="location">
       <MapLocation/>
       </div>
       <div id='contact'>
-      <Contact/>
+    <Contact/>
       </div>
+      <Banner/>
       <TestimonialCarousel/>
-      <Footer />
+        <Footer />
     </div>
   )
 }
