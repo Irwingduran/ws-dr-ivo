@@ -9,6 +9,7 @@ import SurgeriesGrid from './SurgeriesGrid'
 import Footer from '../../components/Footer'
 import GrowIn from '../../animation/GrowIn'
 import Contact from './Contact'
+import Mockup from './Mockup'
 
 const Home = () => {
   return (
@@ -25,6 +26,9 @@ const Home = () => {
       </div>
       <div id="location">
       <MapLocation/>
+      </div>
+      <div>
+        <Mockup/>
       </div>
       <div id='contact'>
     <Contact/>
