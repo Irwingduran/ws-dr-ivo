@@ -10,7 +10,7 @@ const ServiceSection = ({
     <section className="flex items-center justify-center bg-white py-12 px-6">
       <div className="max-w-6xl flex flex-col md:flex-row items-center gap-8">
         {/* Imagen */}
-        <div className="w-full md:w-1/2">
+        <div className="w-4/12">
           <img
             src={imageUrl}
             alt="Service"

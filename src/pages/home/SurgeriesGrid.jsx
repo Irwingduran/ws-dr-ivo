@@ -23,6 +23,18 @@ const SurgeriesGrid = () => {
       image: "/services/piedras.webp",
       link: "/Service",
     },
+    {
+      title: "Tratamiento con ondas de choque para disfunción eréctil",
+      description: "Tratamiento no invasivo que mejora la función eréctil mediante estimulación vascular.",
+      image: "/services/piedras.webp",
+      link: "/Service",
+    },
+    {
+      title: "Biopsia prostática",
+      description: "Procedimiento seguro y preciso para diagnóstico de afecciones prostáticas.",
+      image: "/services/piedras.webp",
+      link: "/Service",
+    },
   ];
   
 

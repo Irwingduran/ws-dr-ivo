@@ -3,22 +3,40 @@ import React, { useState } from 'react';
 const TestimonialCarousel = () => {
   const testimonials = [
     {
-      name: 'María López',
+      name: 'Ricardo Campero',
       role: 'Paciente',
       testimonial:
-        'El Dr. Pineda es un profesional excepcional. Su atención al detalle y su trato humano me hicieron sentir segura durante todo el proceso.',
+        'Excelente atención por parte del Dr. Ivo. Siempre fue muy claro para resolver mis dudas y siempre estuvo dispuesto y facilitó mucho los detalles de mi operación. Lo recomiendo totalmente.',
     },
     {
-      name: 'Carlos Ramírez',
+      name: 'Leticia Lisker',
       role: 'Paciente',
       testimonial:
-        'Un médico increíble. Su experiencia y conocimiento son evidentes en cada consulta. Lo recomiendo ampliamente.',
+        'Muy recomendable el doctor Pineda. Ha atendido a tres de mis familiares directos. El diagnóstico fue certero, la atención personalizada y amable. En la operación con láser todo salió excelentemente. Cuando surgen dudas, siempre responde. 10 de 10.',
     },
     {
-      name: 'Ana Torres',
+      name: 'Deva GZB',
       role: 'Paciente',
       testimonial:
-        'Gracias al Dr. Pineda mi salud ha mejorado significativamente. Es un especialista que realmente se preocupa por sus pacientes.',
+        'Excelente doctor, muy amable y atento en todo.',
+    },
+    {
+      name: 'Arturo Quan Kiu',
+      role: 'Paciente',
+      testimonial:
+        'Excelente atención integral. El doctor tiene conocimientos y herramientas (equipo médico) para brindar un servicio que resuelve al 100%.',
+    },
+    {
+      name: 'Gerardo Santos',
+      role: 'Paciente',
+      testimonial:
+        'El Dr. Ivo es una persona sumamente confiable y profesional en su especialidad. Operó a mi papá de la próstata usando la tecnología de láser holmio. Y todo salió excelente. Lo recomiendo ampliamente y si alguien requiere conocer el testimonio de mi papá él puede constatar su caso por teléfono o personalmente.  No dudes en buscar ayuda con el Dr. Ivo todo un profesional. Gracias...',
+    },
+    {
+      name: 'José Alberto Carrasco',
+      role: 'Paciente',
+      testimonial:
+        'Excelente atención médica, muy profesional, con explicación clara y completa del padecimiento y su tratamiento. ¡Gracias Doctor Ivo por su atención!',
     },
   ];
 
