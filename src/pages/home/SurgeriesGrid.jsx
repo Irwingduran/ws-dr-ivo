@@ -9,31 +9,31 @@ const SurgeriesGrid = () => {
       title: "Consulta médica con especialista",
       description: "Evaluar, diagnosticar y tratar diversas condiciones médicas.",
       image: "/services/cancer.jpg",
-      link: "/Service",
+      link: "/Service1",
     },
     {
       title: "Retiro de verrugas por papiloma y molusco contagioso con láser",
       description: "Eliminación segura y efectiva de verrugas causadas por el virus del papiloma humano (VPH).",
       image: "/services/difus.jpg",
-      link: "/Service",
+      link: "/Service2",
     },
     {
       title: "Ultrasonido de próstata y vías urinarias con FLUJOMETRIA",
       description: "Estudio no invasivo para evaluar el estado de la próstata y vías urinarias.",
       image: "/services/piedras.webp",
-      link: "/Service",
+      link: "/Service3",
     },
     {
-      title: "Tratamiento con ondas de choque para disfunción eréctil",
-      description: "Tratamiento no invasivo que mejora la función eréctil mediante estimulación vascular.",
-      image: "/services/piedras.webp",
-      link: "/Service",
+      title: "Ondas de choque para disfunción eréctil",
+      description: "Tratamiento especializado en manos de un profesional",
+      image: "/services/ondas.webp",
+      link: "/Service4",
     },
     {
       title: "Biopsia prostática",
       description: "Procedimiento seguro y preciso para diagnóstico de afecciones prostáticas.",
-      image: "/services/piedras.webp",
-      link: "/Service",
+      image: "/services/biopsia.jpg",
+      link: "/Service5",
     },
   ];
   
@@ -51,22 +51,22 @@ const SurgeriesGrid = () => {
     {
       name: "Cirugía de próstata con láser HOLEP",
       price: "A partir de $90,000.00",
-      icon: <GiLaserPrecision className="text-4xl mb-4 text-yellow-100" />, // Salud y órganos
+      icon: <GiLaserPrecision className="text-6xl mb-4 text-yellow-100" />, 
     },
     {
       name: "Cirugía de cálculos (piedras) urinarias con láser",
       price: "A partir de $35,000.00",
-      icon: <FaProcedures  className="text-4xl mb-4 text-yellow-100" />, // Diagnóstico y tratamiento
+      icon: <FaProcedures  className="text-6xl mb-4 text-yellow-100" />, 
     },
     {
       name: "Cirugía de genitales (circuncisión, varicocele, hidrocele) con láser",
       price: "A partir de $25,000",
-      icon: <FaUserMd className="text-4xl mb-4 text-yellow-100" />, // Tratamiento de áreas específicas
+      icon: <FaUserMd className="text-6xl mb-4 text-yellow-100" />, 
     },
     {
       name: "Cirugía de alargamiento y engrosamiento de pene (con y sin prótesis)",
       price: "A partir de $30,000",
-      icon: <FaRulerVertical className="text-4xl mb-4 text-yellow-100" />, // Medición o ajuste
+      icon: <FaRulerVertical className="text-6xl mb-4 text-yellow-100" />, 
     },
   ];
 
@@ -105,16 +105,21 @@ const SurgeriesGrid = () => {
         </div>
 
         <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">Otros Servicios</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            {servicesList.map((service, index) => (
-              <div key={index} className="flex items-center">
-                <Star className="text-yellow-400 mr-2 w-5 h-5" />
-                <span className="text-gray-700">{service}</span>
-              </div>
-            ))}
-          </div>
-        </div>
+  <h2 className="text-3xl font-bold text-gray-800 mb-6">Otros Servicios</h2>
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    {servicesList.map((service, index) => (
+      <div key={index} className="flex items-center">
+        <img 
+          src="/logo.png" // Si está en `public/icons/custom-icon.png`
+          alt="Icono" 
+          className="mr-2 w-5 h-5"
+        />
+        <span className="text-gray-700">{service}</span>
+      </div>
+    ))}
+  </div>
+</div>
+
 
         <div className="bg-[#0284C7] rounded-xl shadow-lg p-8 text-white">
   <h2 className="text-3xl font-bold mb-8 text-center">Cirugías más frecuentes</h2>
