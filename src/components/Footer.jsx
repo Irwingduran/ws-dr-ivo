@@ -59,7 +59,7 @@ const Footer = () => {
                 </div>
                 <div className='bg-white w-full h-[1px] my-6 bg-opacity-50'></div>
                 <div className='flex md:flex-row flex-col gap-4'>
-                    <p>© 2025 Delta Agencia</p>
+                    <p>© 2025 Delta by <a className='hover:text-yellow-300' href="https://marketingmedicos.com.mx/">Imagen Médica</a></p>
                 </div>
             </div>
         </AnimatedItem>

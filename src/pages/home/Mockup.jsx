@@ -40,7 +40,7 @@ const Mockup = () => {
   imageUrl="/services/mockup.png"
   title="Encuentra más información en mi tarjeta digital en Findoctor"
   description="Accede a mi tarjeta digital en Findoctor para encontrar fácilmente información sobre mis servicios, ubicación, horarios y datos de contacto. Reserva tu cita en línea de manera rápida y segura."
-  buttonText="Ir a Findoctor"
+  buttonText="Visita mi tarjeta digital"
 />
   );
 };

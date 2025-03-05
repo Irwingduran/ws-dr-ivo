@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaStar } from 'react-icons/fa'; // Importar el ícono de estrella
 
 const TestimonialCarousel = () => {
   const testimonials = [
@@ -51,7 +52,7 @@ const TestimonialCarousel = () => {
   };
 
   return (
-    <div className="relative bg-[#FFF] text-black py-12 px-6 rounded-lg shadow-xl mt-10 overflow-hidden">
+    <div className="relative bg-[#FFF] text-black py-12 px-6 rounded-lg shadow-xl mt-10 overflow-hidden" id='resenas'>
       {/* Fondo decorativo */}
       <div className="absolute inset-0 opacity-10 pointer-events-none"></div>
 
@@ -65,6 +66,14 @@ const TestimonialCarousel = () => {
           <p className="mt-4 font-medium text-gray-800">
             - {testimonials[currentIndex].name}, <span className="italic">{testimonials[currentIndex].role}</span>
           </p>
+          {/* Icono de cinco estrellas */}
+          <div className="mt-2 text-yellow-500 flex justify-center">
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+          </div>
         </div>
 
         {/* Navegación */}

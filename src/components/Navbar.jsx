@@ -32,6 +32,9 @@ const Navbar = () => {
                   <a href="/#service" className='text-[20px]'>Servicios</a>
                </li>
                <li>
+                  <a href="/#resenas" className='text-[20px]'>Reseñas</a>
+               </li>
+               <li>
                   <a href="/#contact" className='text-[20px]'>Contacto</a>
                </li>
             </ul>
@@ -56,6 +59,9 @@ const Navbar = () => {
                   </li>
                   <li>
                      <a href="/#service" className='text-[20px]'>Servicios</a>
+                  </li>
+                  <li>
+                     <a href="/#resenas" className='text-[20px]'>Reseñas</a>
                   </li>
                   <li>
                      <a href="/#contact" className='text-[20px]'>Contacto</a>
