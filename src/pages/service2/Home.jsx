@@ -69,7 +69,7 @@ const Home = () => {
 
       {/* Llamada a la Acción */}
       <div className="mt-8 flex justify-center items-center">
-        <a href="https://api.whatsapp.com/send/?phone=5212226398763&text=Hola+Dr.+me+interesa+el+retiro+de+verrugas+con+láser&type=phone_number&app_absent=0">
+        <a href="https://www.doctoralia.com.mx/ivo-humberto-pineda-somodevilla/urologo/puebla">
           <button className="bg-[#0284C7] text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition duration-300">
             ¡Agenda tu Consulta Ahora!
           </button>
