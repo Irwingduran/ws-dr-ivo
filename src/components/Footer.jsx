@@ -23,7 +23,7 @@ const Footer = () => {
                         <a href="https://www.facebook.com/ivopinedasomodevilla" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                             <FaFacebookF className='h-6 w-6 hover:text-gray-200 transition duration-300' />
                         </a>
-                        <a href="https://api.whatsapp.com/send/?phone=5212226398763&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <a href="https://api.whatsapp.com/send/?phone=5212222696218&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                             <FaWhatsapp className='h-6 w-6 hover:text-gray-200 transition duration-300' />
                         </a>
                         <a href="https://www.instagram.com/dr.ivo.urologo/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noopener noreferrer" aria-label="Instagram">

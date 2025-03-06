@@ -20,7 +20,7 @@ const Banner = () => {
         </div>
 
         {/* Botón */}
-        <a href="https://www.google.com.mx/maps/place/Dr+Ivo+H+Pineda+Somodevilla,+Ur%C3%B3logo+en+Puebla/@19.030538,-98.2309809,17z/data=!4m8!3m7!1s0x85cfc73644b2eb1d:0x58ad38617c18d3f0!8m2!3d19.030538!4d-98.228406!9m1!1b1!16s%2Fg%2F11b86zs__1?entry=ttu&g_ep=EgoyMDI1MDMwMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+        <a href="https://www.google.com/search?sca_esv=9632110e93a89f4a&sxsrf=AHTn8zp5PQab2iiumwKbl6jZ--FHLtetrg:1740083024549&si=APYL9bs7Hg2KMLB-4tSoTdxuOx8BdRvHbByC_AuVpNyh0x2KzeLgm9RobP8BibSHqjs-OohgW9YHnnmnwkAwvu8NstjhGvzO4NUocbp6BoBvSU2PnJFHWbE3HXJnfdOsKXu_I9U7V-vxuwe0H_g4n3vLswKBPI4jQyp8wZuFTYL4Zj83F6BVXtZjFRwvI2l2vdPoDvT-KPnc&q=Dr+Ivo+H+Pineda+Somodevilla,+Ur%C3%B3logo+en+Puebla+Opiniones&sa=X&ved=2ahUKEwj8jLu0itOLAxUILEQIHVg5JNsQ0bkNegQIIxAE&biw=1470&bih=832&dpr=2" target="_blank">
         <button
           className="bg-[#0284C7] text-white font-semibold text-lg py-3 px-8 rounded-full shadow-md hover:bg-blue-300 transition-transform transform hover:scale-105"
         >

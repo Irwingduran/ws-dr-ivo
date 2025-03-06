@@ -7,7 +7,7 @@ const SocialMediaButtons = () => {
   const socialLinks = [
     {
       name: 'WhatsApp',
-      url: 'https://api.whatsapp.com/send/?phone=5212226398763&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0',
+      url: 'https://api.whatsapp.com/send/?phone=5212222696218&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0',
       bgColor: 'bg-green-500',
       hoverColor: 'hover:bg-green-600',
       icon: (
