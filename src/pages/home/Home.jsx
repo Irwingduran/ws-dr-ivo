@@ -11,6 +11,7 @@ import GrowIn from '../../animation/GrowIn'
 import Contact from './Contact'
 import Mockup from './Mockup'
 import Carousel from './Carousel'
+import Partners from "./Partners"
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
       <div id='contact'>
     <Contact/>
       </div>
+      <Partners/>
         <Footer />
     </div>
   )
