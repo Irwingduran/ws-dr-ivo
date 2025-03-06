@@ -42,11 +42,6 @@ const Home = () => {
             </ul>
           </div>
 
-          {/* Duración */}
-          <div className="mt-6">
-            <h3 className="font-bold text-[#0284C7] mb-2">🕒 Duración Aproximada</h3>
-            <p className="text-gray-700">El procedimiento dura entre 30 y 45 minutos, dependiendo de la evaluación médica.</p>
-          </div>
         </div>
 
         {/* Sección del Video (Vertical) */}
