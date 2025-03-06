@@ -48,7 +48,7 @@ const Home = () => {
         <div className="md:w-1/2 w-full flex justify-center items-center">
           <div className="w-[300px] h-[550px] md:w-[350px] md:h-[600px] rounded-lg overflow-hidden shadow-lg">
             <iframe
-              src="https://www.youtube.com/embed/example-video"
+              src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1241954270500162%2F&show_text=false&width=267&t=0"
               className="w-full h-full rounded-lg"
               style={{ border: 'none', overflow: 'hidden' }}
               scrolling="no"

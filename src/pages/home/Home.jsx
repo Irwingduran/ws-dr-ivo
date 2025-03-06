@@ -10,6 +10,7 @@ import Footer from '../../components/Footer'
 import GrowIn from '../../animation/GrowIn'
 import Contact from './Contact'
 import Mockup from './Mockup'
+import Carousel from './Carousel'
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
       </div>
       <TestimonialCarousel/>
       <Banner/>
+      <Carousel/>
       <div id='contact'>
     <Contact/>
       </div>
