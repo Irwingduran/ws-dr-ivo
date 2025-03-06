@@ -26,18 +26,19 @@ const Carousel = () => {
   return (
     <div className="py-16">
       <div className="text-center mb-8">
-        <h2 className="text-3xl font-bold text-gray-800"> Especialista en urología</h2>
+        <h2 className="text-3xl font-bold text-gray-800">Especialista en urología</h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto mt-2">
-          amplia experiencia en procedimientos avanzados. 
+          Amplia experiencia en procedimientos avanzados. 
           Reconocido por su precisión y excelencia en el tratamiento de enfermedades urológicas.
         </p>
       </div>
-      <div className="relative w-full max-w-2xl mx-auto">
+      <div className="relative w-full max-w-xl mx-auto"> {/* Cambiado de max-w-2xl a max-w-xl */}
         <div className="overflow-hidden rounded-lg shadow-lg">
           <img
             src={images[currentIndex]}
             alt={`Slide ${currentIndex + 1}`}
             className="w-full h-auto"
+            style={{ maxWidth: "50%", margin: "0 auto" }} // Ajusta el tamaño de la imagen
           />
         </div>
         <button
