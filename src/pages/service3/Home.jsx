@@ -1,6 +1,20 @@
 import React from 'react';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Pagination, Navigation } from 'swiper/modules';
+
+const videos = [
+  "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1951952565223163%2F&show_text=false&width=267&t=0",
+  "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F618978214149220%2F&show_text=false&width=267&t=0",
+  "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F413890081564756%2F&show_text=false&width=267&t=0",
+  "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F591962669327401%2F&show_text=false&width=267&t=0",
+  "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F516454463578661%2F&show_text=false&width=267&t=0",
+  "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F527421742387676%2F&show_text=false&width=267&t=0"
+];
 
 const Home = () => {
   return (
@@ -44,19 +58,30 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Sección del Video (Vertical) */}
+        {/* Sección del Carrusel de Videos */}
         <div className="md:w-1/2 w-full flex justify-center items-center">
           <div className="w-[300px] h-[550px] md:w-[350px] md:h-[600px] rounded-lg overflow-hidden shadow-lg">
-            <iframe
-              src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1241954270500162%2F&show_text=false&width=267&t=0"
-              className="w-full h-full rounded-lg"
-              style={{ border: 'none', overflow: 'hidden' }}
-              scrolling="no"
-              frameBorder="0"
-              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-              allowFullScreen
-              title="Ultrasonido de Próstata y Vías Urinarias"
-            ></iframe>
+            <Swiper
+              pagination={{ clickable: true }}
+              navigation={true}
+              modules={[Pagination, Navigation]}
+              className="w-full h-full"
+            >
+              {videos.map((video, index) => (
+                <SwiperSlide key={index}>
+                  <iframe
+                    src={video}
+                    className="w-full h-full rounded-lg"
+                    style={{ border: 'none', overflow: 'hidden' }}
+                    scrolling="no"
+                    frameBorder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                    allowFullScreen
+                    title={`Video ${index + 1}`}
+                  ></iframe>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
         </div>
       </div>

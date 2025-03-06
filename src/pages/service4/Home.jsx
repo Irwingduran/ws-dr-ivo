@@ -1,6 +1,17 @@
 import React from 'react';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Pagination, Navigation } from 'swiper/modules';
+
+const videos = [
+  "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F431000090039554%2F&show_text=false&width=267&t=0",
+  "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F614889521224739%2F&show_text=false&width=267&t=0",
+  "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F455143843685835%2F&show_text=false&width=267&t=0"
+];
 
 const Home = () => {
   return (
@@ -42,23 +53,32 @@ const Home = () => {
               <li>Compatible con otros tratamientos médicos.</li>
             </ul>
           </div>
-
-         
         </div>
 
-        {/* Sección del Video */}
+        {/* Sección del Carrusel de Videos */}
         <div className="md:w-1/2 w-full flex justify-center items-center">
           <div className="w-[300px] h-[550px] md:w-[350px] md:h-[600px] rounded-lg overflow-hidden shadow-lg">
-            <iframe
-              src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F488901799643371%2F&show_text=false&width=267&t=0"
-              className="w-full h-full rounded-lg"
-              style={{ border: 'none', overflow: 'hidden' }}
-              scrolling="no"
-              frameBorder="0"
-              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-              allowFullScreen
-              title="Ondas de choque para disfunción eréctil"
-            ></iframe>
+            <Swiper
+              pagination={{ clickable: true }}
+              navigation={true}
+              modules={[Pagination, Navigation]}
+              className="w-full h-full"
+            >
+              {videos.map((video, index) => (
+                <SwiperSlide key={index}>
+                  <iframe
+                    src={video}
+                    className="w-full h-full rounded-lg"
+                    style={{ border: 'none', overflow: 'hidden' }}
+                    scrolling="no"
+                    frameBorder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                    allowFullScreen
+                    title={`Video ${index + 1}`}
+                  ></iframe>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
         </div>
       </div>
