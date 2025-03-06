@@ -32,13 +32,12 @@ const Carousel = () => {
           Reconocido por su precisión y excelencia en el tratamiento de enfermedades urológicas.
         </p>
       </div>
-      <div className="relative w-full max-w-xl mx-auto"> {/* Cambiado de max-w-2xl a max-w-xl */}
+      <div className="relative w-full max-w-lg mx-auto"> {/* Cambiado de max-w-2xl a max-w-lg */}
         <div className="overflow-hidden rounded-lg shadow-lg">
           <img
             src={images[currentIndex]}
             alt={`Slide ${currentIndex + 1}`}
-            className="w-full h-auto"
-            style={{ maxWidth: "50%", margin: "0 auto" }} // Ajusta el tamaño de la imagen
+            className="w-full h-auto" // La imagen se ajustará al ancho del contenedor
           />
         </div>
         <button
