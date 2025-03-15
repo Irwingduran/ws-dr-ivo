@@ -25,7 +25,7 @@ import logo from '../../assets/brands/logo.svg';
                     <h2 className='font-semibold text-[35px] sm:text-[40px] md:text-[50px] lg:text-[60px]'>Dr. Ivo Humberto <br /> Pineda Somodevilla</h2>
                     <h3 className='font-semibold text-[15px] sm:text-[20px] md:text-[30px] lg:text-[40px]'>Urólogo</h3>
                     <p className='text-[20px]'>Me distingue la discreción, profesionalismo, trato amable, así como conocimientos actualizados y tecnología de última generación para el tratamiento de su padecimiento.</p>
-                   <a href="https://bit.ly/3mb1wjq" target='_blank'> <button className='bg-[#0284C7] text-white text-[20px] px-4 py-2 rounded-lg'>Agendar Cita</button></a>
+                   <a href="https://wa.me/5212222696218?text=Hola%20doctor,%20encontré%20su%20contacto%20en%20su%20sitio%20web%20y%20me%20gustaría%20agendar%20una%20cita" target='_blank'> <button className='bg-[#0284C7] text-white text-[20px] px-4 py-2 rounded-lg'>Agendar Cita</button></a>
                 </SlideInFromLeft>
             </div>
            

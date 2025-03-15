@@ -11,6 +11,10 @@ const Navbar = () => {
       setIsMobileMenuOpen(!isMobileMenuOpen);
    };
 
+   const closeMobileMenu = () => {
+      setIsMobileMenuOpen(false);
+   };
+
    return (
       <div className='flex justify-between items-center py-6 lg:py-0 sticky top-0 bg-white z-50'>
          <ScrollToHash/>
@@ -38,7 +42,8 @@ const Navbar = () => {
                   <a href="/#contact" className='text-[20px]'>Contacto</a>
                </li>
             </ul>
-            <a href="https://bit.ly/3mb1wjq" target='_blank'>
+            <a href="https://wa.me/5212222696218?text=Hola%20doctor,%20encontré%20su%20contacto%20en%20su%20sitio%20web%20y%20me%20gustaría%20agendar%20una%20cita" target='_blank'>
+               {/* https://bit.ly/3mb1wjq     */}  
                <button className='text-center text-white border rounded-lg bg-[#0284C7] py-3 px-4'>Agendar Cita</button>
             </a>
          </div>
@@ -52,22 +57,22 @@ const Navbar = () => {
                </a>
                <ul className='flex flex-col items-center gap-[20px]'>
                   <li>
-                     <a href="/" className='text-[20px]'>Inicio</a>
+                     <a href="/" className='text-[20px]' onClick={closeMobileMenu}>Inicio</a>
                   </li>
                   <li>
-                     <a href="/#about" className='text-[20px]'>Conóceme</a>
+                     <a href="/#about" className='text-[20px]' onClick={closeMobileMenu}>Conóceme</a>
                   </li>
                   <li>
-                     <a href="/#service" className='text-[20px]'>Servicios</a>
+                     <a href="/#service" className='text-[20px]' onClick={closeMobileMenu}>Servicios</a>
                   </li>
                   <li>
-                     <a href="/#resenas" className='text-[20px]'>Reseñas</a>
+                     <a href="/#resenas" className='text-[20px]' onClick={closeMobileMenu}>Reseñas</a>
                   </li>
                   <li>
-                     <a href="/#contact" className='text-[20px]'>Contacto</a>
+                     <a href="/#contact" className='text-[20px]' onClick={closeMobileMenu}>Contacto</a>
                   </li>
                </ul>
-               <a href="https://bit.ly/3mb1wjq" target='_blank'>
+               <a href="https://wa.me/5212222696218?text=Hola%20doctor,%20encontré%20su%20contacto%20en%20su%20sitio%20web%20y%20me%20gustaría%20agendar%20una%20cita" target='_blank'>
                   <button className='mt-4 text-center border rounded-lg border-black py-3 px-4'>Agendar Cita</button>
                </a>
             </div>
