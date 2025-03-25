@@ -12,6 +12,8 @@ import Contact from './Contact'
 import Mockup from './Mockup'
 import Carousel from './Carousel'
 import Partners from "./Partners"
+import Widget from './Widget'
+import Widgett from './Widgett'
 
 const Home = () => {
   return (
@@ -35,6 +37,8 @@ const Home = () => {
       <TestimonialCarousel/>
       <Banner/>
       <Carousel/>
+      <Widget/>
+      <Widgett/>
       <div id='contact'>
     <Contact/>
       </div>
