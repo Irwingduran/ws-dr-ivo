@@ -45,7 +45,7 @@ const SurgeriesGrid = () => {
     "Enfermedades de la próstata",
     "Incontinencia urinaria",
     "Cáncer de próstata, riñón, vejiga, testículo y pene",
-    "Infeccion de vias urinarias",
+    "Infeccion de vías urinarias",
     "Biopsia prostática ",
     "Retiro de verrugas por papiloma y molusco contagioso con láser"
   ]
