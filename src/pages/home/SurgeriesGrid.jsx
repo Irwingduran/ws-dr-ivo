@@ -85,13 +85,15 @@ const SurgeriesGrid = () => {
               className="bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl"
             >
               <div className="h-48 relative">
-                <img
-                  src={surgery.image || "/placeholder.svg"}
-                  alt={surgery.title}
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-              </div>
+  <a href={surgery.link} className="block w-full h-full">
+    <img
+      src={surgery.image || "/placeholder.svg"}
+      alt={surgery.title}
+      className="w-full h-full object-cover"
+    />
+    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+  </a>
+</div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">{surgery.title}</h3>
                 <p className="text-gray-600 mb-4">{surgery.description}</p>
