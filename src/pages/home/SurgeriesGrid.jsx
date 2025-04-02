@@ -11,6 +11,18 @@ const SurgeriesGrid = () => {
       image: "/services/cancer.jpg",
       link: "/Service1",
     },
+     {
+      title: "Cirugía con láser de próstata HOLEP",
+      description: "La cirugía HoLEP usa láser de holmio para eliminar el tejido prostático agrandado, mejorando el flujo urinario con mínima invasión.",
+      image: "/services/biopsia.jpg",
+      link: "/Service5",
+    },
+     {
+       title: "Retiro de verrugas por papiloma y molusco contagioso con láser",
+       description: "Eliminación segura y efectiva de verrugas causadas por el virus del papiloma humano (VPH).",
+       image: "/services/difus.jpg",
+       link: "/Service2",
+     },
     {
       title: "Ultrasonido de próstata y vías urinarias con FLUJOMETRIA",
       description: "Estudio no invasivo para evaluar el estado de la próstata y vías urinarias.",
@@ -23,12 +35,7 @@ const SurgeriesGrid = () => {
       image: "/services/ondas.webp",
       link: "/Service4",
     },
-    {
-      title: "Cirugía con láser de próstata HOLEP",
-      description: "La cirugía HoLEP usa láser de holmio para eliminar el tejido prostático agrandado, mejorando el flujo urinario con mínima invasión.",
-      image: "/services/biopsia.jpg",
-      link: "/Service5",
-    },
+   
   ];
   
 
