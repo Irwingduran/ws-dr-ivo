@@ -70,7 +70,7 @@ const SocialMediaButtons = () => {
   const socialLinks = [
     {
       name: 'WhatsApp',
-      url: 'https://wa.me/5212222696218?text=Hola%20doctor,%20encontré%20su%20contacto%20en%20su%20sitio%20web%20y%20me%20gustaría%20agendar%20una%20cita',
+      url: 'https://wa.me/5212226398763?text=Hola%20doctor,%20encontré%20su%20contacto%20en%20su%20sitio%20web%20y%20me%20gustaría%20agendar%20una%20cita',
       bgColor: 'bg-green-500',
       hoverColor: 'hover:bg-green-600',
       icon: (

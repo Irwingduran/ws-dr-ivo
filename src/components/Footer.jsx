@@ -23,7 +23,7 @@ const Footer = () => {
                         <a href="https://www.facebook.com/ivopinedasomodevilla" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                             <FaFacebookF className='h-6 w-6 hover:text-gray-200 transition duration-300' />
                         </a>
-                        <a href="https://wa.me/5212222696218?text=Hola%20doctor,%20encontré%20su%20contacto%20en%20su%20sitio%20web%20y%20me%20gustaría%20agendar%20una%20cita" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <a href="https://wa.me/5212226398763?text=Hola%20doctor,%20encontré%20su%20contacto%20en%20su%20sitio%20web%20y%20me%20gustaría%20agendar%20una%20cita" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                             <FaWhatsapp className='h-6 w-6 hover:text-gray-200 transition duration-300' />
                         </a>
                         <a href="https://www.instagram.com/dr.ivo.urologo/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
@@ -47,8 +47,8 @@ const Footer = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="tel:2222696218" className='flex items-center gap-2'>
-                                        <FaPhone /> Urgencias: 2222696218
+                                    <a href="tel:2226398763" className='flex items-center gap-2'>
+                                        <FaPhone /> Urgencias: 2226398763
                                     </a>
                                 </li>
                                 <li>Dirección:</li>

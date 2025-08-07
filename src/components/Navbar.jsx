@@ -39,7 +39,7 @@ const Navbar = () => {
                   <a href="/#resenas" className='text-[20px]'>Reseñas</a>
                </li>
             </ul>
-            <a href="https://wa.me/5212222696218?text=Hola%20doctor,%20encontré%20su%20contacto%20en%20su%20sitio%20web%20y%20me%20gustaría%20agendar%20una%20cita" target='_blank'>
+            <a href="https://wa.me/5212226398763?text=Hola%20doctor,%20encontré%20su%20contacto%20en%20su%20sitio%20web%20y%20me%20gustaría%20agendar%20una%20cita" target='_blank'>
                {/* https://bit.ly/3mb1wjq     */}  
                <button className='text-center text-white border rounded-lg bg-[#0284C7] py-3 px-4'>Agendar Cita</button>
             </a>
@@ -67,7 +67,7 @@ const Navbar = () => {
                   </li>
                 
                </ul>
-               <a href="https://wa.me/5212222696218?text=Hola%20doctor,%20encontré%20su%20contacto%20en%20su%20sitio%20web%20y%20me%20gustaría%20agendar%20una%20cita" target='_blank'>
+               <a href="https://wa.me/5212226398763?text=Hola%20doctor,%20encontré%20su%20contacto%20en%20su%20sitio%20web%20y%20me%20gustaría%20agendar%20una%20cita" target='_blank'>
                   <button className='mt-4 text-center border rounded-lg border-black py-3 px-4'>Agendar Cita</button>
                </a>
             </div>
